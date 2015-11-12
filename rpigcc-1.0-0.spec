@@ -8,6 +8,8 @@ URL:https://github.com/troeger/rpigcc
 Source0:https://github.com/raspberrypi/tools/archive/master.zip
 AutoReqProv: no
 
+%global __os_install_post %{nil}
+
 %description
 This package installs the RaspBerryPI cross compiler for Linux,
 originally available at https://github.com/raspberrypi/tools.
